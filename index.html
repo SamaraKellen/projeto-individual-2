@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+     <main> 
+      <div class="section">
+
+        <div class="title"> Calculadora de Velocidade </div>
+        <h2> A calculadora de velocidade ajuda as pessoas a alcançar uma melhor qualidade de vida por meio da prática de exercícios físicos, têm interesse em monitorar o desempenho nas corridas. Especificamente, eles querem calcular a velocidade, o pace e o quantas calorias consumiram durante o treinamento</h2>
+        <div class="input">
+             <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual é o seu peso (kg)? Ex: 80" type="number" id='peso' required="required" >
+      </div>
+  
+        <div class="input">
+            <input  placeholder="Qual é a distância que você percorreu (km)? Ex: 18,50"  type="number" id='distância'required="required">
+        </div>
+
+        <div class="input">
+            <input typy="time" step= "1" id= "tempo" required="required">
+        </div>
+          
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer> Atenção! Estes resultados devem ser interpretado por um(a) profissional de educação física.</footer>  
+
+      </div>
+    </main>
+    <script src="trabalho2/script.js"></script>
+  </body>
+</html>
